@@ -23,7 +23,7 @@
         },
         {
             "img": {
-                "src": "/assets/frontend/img/slide-4.jpg"
+                "src": "assets/frontend/img/slide-4.jpg"
             },
             "rotate": "-1deg",
             "x": "350px",

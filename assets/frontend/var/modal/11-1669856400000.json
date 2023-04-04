@@ -6,12 +6,12 @@
     "content": [
         {
             "title": "Lorem ipsum dolor",
-            "src": "/assets/frontend/img/slide-1.jpg",
+            "src": "assets/frontend/img/slide-1.jpg",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
         },
         {
             "title": "Lorem ipsum dolor",
-            "src": "/assets/frontend/img/slide-2.jpg",
+            "src": "assets/frontend/img/slide-2.jpg",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
             "buttons": {
                 "close": {
@@ -25,22 +25,22 @@
             },
             "styles": {
                 "animation-duration": "7s",
-                "background": "/assets/frontend/img/slide-1.jpg"
+                "background": "assets/frontend/img/slide-1.jpg"
             }
         },
         {
             "title": "Lorem ipsum dolor",
-            "src": "/assets/frontend/img/slide-3.jpg",
+            "src": "assets/frontend/img/slide-3.jpg",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
         },
         {
             "title": "Lorem ipsum dolor",
-            "src": "/assets/frontend/img/slide-4.jpg",
+            "src": "assets/frontend/img/slide-4.jpg",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
         },
         {
             "title": "Lorem ipsum dolor",
-            "src": "/assets/frontend/img/slide-5.jpg",
+            "src": "assets/frontend/img/slide-5.jpg",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
         }
     ],

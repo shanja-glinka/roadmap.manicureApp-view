@@ -5,13 +5,13 @@
     "date": 1673658000000,
     "img": [
         {
-            "src": "/assets/frontend/img/exphoto-1.jpg"
+            "src": "assets/frontend/img/exphoto-1.jpg"
         },
         {
-            "src": "/assets/frontend/img/exphoto-2.jpg"
+            "src": "assets/frontend/img/exphoto-2.jpg"
         },
         {
-            "src": "/assets/frontend/img/exphoto-3.jpg"
+            "src": "assets/frontend/img/exphoto-3.jpg"
         }
     ],
     "title": "Lorem ipsum dolor",

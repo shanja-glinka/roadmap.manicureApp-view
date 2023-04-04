@@ -5,13 +5,13 @@
     "date": 1673658000000,
     "img": [
         {
-            "src": "/assets/frontend/img/bith-1.jpg"
+            "src": "assets/frontend/img/bith-1.jpg"
         },
         {
-            "src": "/assets/frontend/img/bith-2.jpg"
+            "src": "assets/frontend/img/bith-2.jpg"
         },
         {
-            "src": "/assets/frontend/img/bith-3.jpg"
+            "src": "assets/frontend/img/bith-3.jpg"
         }
     ],
     "title": "Йо.. в этот день др",
