@@ -16,7 +16,7 @@ class ModalStruct {
             'modalWrap': 'modal-wrap',
 
             'actionXClose': 'modal-action-x-close',
-            'actionXCloseSrc': '/assets/frontend/img/icons/x-close.svg',
+            'actionXCloseSrc': 'assets/frontend/img/icons/x-close.svg',
 
 
             'modalActions': 'modal-actions',
