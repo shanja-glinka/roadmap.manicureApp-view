@@ -1,3 +1,5 @@
+const defaultAsetsPath = 'assets/frontend/';
+
 class ModalStruct {
     constructor(modalData) {
         this.data = modalData;
@@ -16,7 +18,7 @@ class ModalStruct {
             'modalWrap': 'modal-wrap',
 
             'actionXClose': 'modal-action-x-close',
-            'actionXCloseSrc': 'assets/frontend/img/icons/x-close.svg',
+            'actionXCloseSrc': defaultAsetsPath + 'img/icons/x-close.svg',
 
 
             'modalActions': 'modal-actions',
@@ -237,10 +239,81 @@ class ModalStruct {
 
 
     innerPreload() {
-        // console.log('preload innered');
+        let colors = ['#6bd861', '#61d8d8', '#6168d8', '#d861b5', '#d8a461'];
+        let colorRand = colors[Math.floor(Math.random() * colors.length)];
+        let preloadExampleHtml = `<div class="preload-tag">
+            <style>
+                .preload-wrap {
+                    position: fixed;
+                    transition: all .4s ease-in;
+                    top:0;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                    background-color:#ffffff80;
+                    z-index: 250;
+                }
+                #loader {
+                    position:absolute;
+                    top:50%;
+                    left:50%;
+                    transform:translate(-50% , -50%);
+
+                    animation: animate 1.5s linear infinite;
+                    clip: rect(0, 80px, 80px, 40px); 
+                    height: 80px;
+                    width: 80px;
+                    position: absolute;
+                    left: calc(50% - 40px);
+                    top: calc(50% - 40px);
+                }
+                @keyframes animate {
+                    0% { 
+                    transform: rotate(0deg)
+                    }
+                    100% { 
+                    transform: rotate(220deg)
+                    }
+                }
+                #loader:after {
+                    animation: animate2 1.5s ease-in-out infinite;
+                    clip: rect(0, 80px, 80px, 40px);
+                    content:'';
+                    border-radius: 50%; 
+                    height: 80px;
+                    width: 80px;
+                    position: absolute; 
+                } 
+                @keyframes animate2 {
+                    0% {
+                    box-shadow: inset ` + colorRand + ` 0 0 0 17px;
+                    transform: rotate(-140deg);
+                    }
+                    50% {
+                    box-shadow: inset ` + colorRand + ` 0 0 0 2px;
+                    }
+                    100% {
+                    box-shadow: inset ` + colorRand + ` 0 0 0 17px;
+                    transform: rotate(140deg);
+                    }
+                }
+            </style>
+            <div class="preload-wrap">
+                <div id="loader"></div>
+            </div>
+        </div>`;
+
+        let preloadExampleElement = _doc.htmlToElement(preloadExampleHtml);
+
+        document.querySelector('body').appendChild(preloadExampleElement);
     }
+
     removePreload() {
-        // console.log('preload removed');
+        document.querySelector('body .preload-wrap').style.opacity = '0';
+
+        setTimeout(() => {
+            document.querySelector('body').removeChild(document.querySelector('body .preload-tag'));
+        }, 400);
     }
 
     modalPreload(sources, callback = null) {
@@ -360,7 +433,7 @@ class ModalStruct {
             setTimeout(() => {
                 if (!this.modalElement)
                     return;
-                    
+
                 if (this.modalElement.parentNode)
                     this.modalElement.parentNode.removeChild(this.modalElement);
 
