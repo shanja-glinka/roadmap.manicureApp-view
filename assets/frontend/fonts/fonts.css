@@ -2,7 +2,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
-    src: url('/assets/frontend/fonts/latolight.ttf') format('truetype');
+    src: url('./latolight.ttf') format('truetype');
     text-rendering: optimizeLegibility;
 }
 
@@ -10,7 +10,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/frontend/fonts/latoregular.ttf') format('truetype');
+    src: url('./latoregular.ttf') format('truetype');
     text-rendering: optimizeLegibility;
 }
 
@@ -18,7 +18,7 @@
     font-family: 'Lato';
     font-style: normal; 
     font-weight: 500;
-    src: url('/assets/frontend/fonts/latomedium.ttf') format('truetype');
+    src: url('./latomedium.ttf') format('truetype');
     text-rendering: optimizeLegibility;
 }
 
@@ -26,7 +26,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    src: url('/assets/frontend/fonts/latobold.ttf') format('truetype');
+    src: url('./latobold.ttf') format('truetype');
     text-rendering: optimizeLegibility;
 }
 
@@ -34,7 +34,7 @@
     font-family: 'Caveat';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/frontend/fonts/Caveat-Regular.ttf') format('truetype');
+    src: url('./Caveat-Regular.ttf') format('truetype');
     text-rendering: optimizeLegibility;
 }
 
@@ -42,6 +42,6 @@
     font-family: 'Caveat';
     font-style: normal;
     font-weight: 700;
-    src: url('/assets/frontend/fonts/Caveat-Bold.ttf') format('truetype');
+    src: url('./Caveat-Bold.ttf') format('truetype');
     text-rendering: optimizeLegibility;
 }
