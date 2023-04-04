@@ -30,7 +30,7 @@
                         "type": "modal",
                         "call": null,
                         "data": {
-                            "src": "./assets/frontend/var/modal/11-1669856400000.json"
+                            "src": "assets/frontend/var/modal/11-1669856400000.json"
                         }
                     }
                 },
@@ -54,7 +54,7 @@
                 "type": "modal",
                 "call": null,
                 "data": {
-                    "src": "./assets/frontend/var/modal/4-1673658000000.json"
+                    "src": "assets/frontend/var/modal/4-1673658000000.json"
                 }
             },
             "color": 2,
@@ -64,13 +64,13 @@
                 "time": 1673658000000,
                 "img": [
                     {
-                        "src": "./assets/frontend/img/exphoto-1.jpg"
+                        "src": "assets/frontend/img/exphoto-1.jpg"
                     },
                     {
-                        "src": "./assets/frontend/img/exphoto-2.jpg"
+                        "src": "assets/frontend/img/exphoto-2.jpg"
                     },
                     {
-                        "src": "./assets/frontend/img/exphoto-3.jpg"
+                        "src": "assets/frontend/img/exphoto-3.jpg"
                     }
                 ]
             }
@@ -100,7 +100,7 @@
                 "time": 1676595600000,
                 "img": [
                     {
-                        "src": "./assets/frontend/img/exphoto-3.jpg"
+                        "src": "assets/frontend/img/exphoto-3.jpg"
                     }
                 ]
             }
@@ -115,14 +115,14 @@
                 "type": "modal",
                 "call": null,
                 "data": {
-                    "src": "./assets/frontend/var/modal/12-1676595600000.json"
+                    "src": "assets/frontend/var/modal/12-1676595600000.json"
                 }
             },
             "data": {
                 "text": "Планирование, макетирование, проработка идеи",
                 "time": 1676595600000,
                 "img": {
-                    "src": "./assets/frontend/img/exphoto-5.jpg"
+                    "src": "assets/frontend/img/exphoto-5.jpg"
                 }
             }
         },
@@ -136,7 +136,7 @@
                 "type": "modal",
                 "call": null,
                 "data": {
-                    "src": "./assets/frontend/var/modal/14-1678482000000.json"
+                    "src": "assets/frontend/var/modal/14-1678482000000.json"
                 }
             },
             "color": 7,
@@ -144,7 +144,7 @@
                 "text": "Йо... с др",
                 "time": 1678482000000,
                 "img": {
-                    "src": "./assets/frontend/img/trash.png",
+                    "src": "assets/frontend/img/trash.png",
                     "height": "400px",
                     "style": "height: 400px"
                 }
@@ -161,13 +161,13 @@
                 "time": 1694779317832,
                 "img": [
                     {
-                        "src": "./assets/frontend/img/exphoto-1.jpg"
+                        "src": "assets/frontend/img/exphoto-1.jpg"
                     },
                     {
-                        "src": "./assets/frontend/img/exphoto-2.jpg"
+                        "src": "assets/frontend/img/exphoto-2.jpg"
                     },
                     {
-                        "src": "./assets/frontend/img/exphoto-3.jpg"
+                        "src": "assets/frontend/img/exphoto-3.jpg"
                     }
                 ]
             }
