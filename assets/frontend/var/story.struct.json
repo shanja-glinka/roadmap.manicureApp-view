@@ -1,0 +1,72 @@
+{
+    "tagName": "div",
+    "class": "modal-wrap apclick",
+    "style": "text: tete",
+    "data-tits-booba": "size: 5",
+    "children": {
+        "1": {
+            "tagName": "div",
+            "class": "modal-story-wrap",
+            "children": {
+                "1": {
+                    "tagName": "div",
+                    "class": "modal-story-events",
+                    "children": {
+                        "1": {
+                            "tagName": "div",
+                            "class": "modal-story--event-close"
+                        },
+                        "3": {
+                            "tagName": "div",
+                            "class": "modal-story--loader",
+                            "children": {
+                                "1": {
+                                    "tagName": "div",
+                                    "class": "progress-container"
+                                }
+                            }
+                        },
+                        "5": {
+                            "tagName": "div",
+                            "class": "modal-story--event-back"
+                        },
+                        "7": {
+                            "tagName": "div",
+                            "class": "modal-story--event-pause"
+                        },
+                        "9": {
+                            "tagName": "div",
+                            "class": "modal-story--event-next"
+                        }
+                    }
+                },
+                "3": {
+                    "tagName": "div",
+                    "class": "modal-story-content-wrap",
+                    "children": {
+                        "1": {
+                            "tagName": "div",
+                            "class": "modal-story--container",
+                            "children": {
+                                "1": {
+                                    "tagName": "div",
+                                    "class": "modal-story--content",
+                                    "children": {
+                                        "1": {
+                                            "tagName": "div",
+                                            "class": "modal-story--content-header"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "4": {
+                    "tagName": "textNode",
+                    "innerText": "aaa"
+                }
+            }
+        }
+    }
+}

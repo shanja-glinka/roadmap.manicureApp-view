@@ -1,0 +1,50 @@
+{
+    "type": "modal",
+    "view": "field",
+    "version": "1.00",
+    "date": 1673658000000,
+    "title": "Title",
+    "content": [
+        {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+            "x": "100px",
+            "y": "100px"
+        },
+        {
+            "text": "sed do eiusmod tempor incididunt ut labore et dolore",
+            "rotate": "4deg",
+            "x": "150px",
+            "y": "150px"
+        },
+        {
+            "text": "Lorem ipsum dolor",
+            "x": "200px",
+            "y": "200px"
+        },
+        {
+            "img": {
+                "src": "/assets/frontend/img/slide-4.jpg"
+            },
+            "rotate": "-1deg",
+            "x": "350px",
+            "y": "350px"
+        },
+        {
+            "button": {
+                "text": "с др... 🍰",
+                "style": "background: rgb(51, 133, 35);",
+                "event": {
+                    "type": "click",
+                    "func": "bithShowsMe2"
+                }
+            },
+            "x": "350px",
+            "y": "450px"
+        }
+    ],
+    "params": {
+        "overlay-blur": false,
+        "overlay-click-to-close": false,
+        "overlay-hotkey-to-close": true
+    }
+}

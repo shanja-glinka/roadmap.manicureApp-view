@@ -1,0 +1,499 @@
+/*********** BITH ANIMATION ***********/
+.take-cake-wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #d1ff66;
+	overflow: hidden;
+	width: 300px;
+	height: 320px;
+	box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+	transform: translate(-50%, -50%) scale(.8);
+	animation: cake-in .3s forwards;
+	transition: all .3s ease;
+	z-index: 50;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.take-cake {
+	width: 200px;
+	height: 260px;
+	z-index: 50;
+	transition: all .3s ease;
+}
+
+.take-cake .cake {
+    position: relative;
+}
+
+.take-cake .cake-bottom {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background-color: #06d6a0;
+    top: 240px;
+    left: 0;
+    border-radius: 8px 8px 2px 2px;
+    overflow: hidden;
+    box-shadow: 0 10px 10px #97979742;
+    z-index: 52;
+}
+
+.take-cake .cake-bottom::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    left: -5px;
+    border-radius: 0 0 50px 50px;
+    background-color: #fff6e3;
+    box-shadow: 30px 0 #fff6e3, 60px 0 #fff6e3, 90px 0 #fff6e3, 120px 0 #fff6e3, 150px 0 #fff6e3, 180px 0 #fff6e3;
+}
+
+.take-cake .cake-bottom::before {
+    content: "";
+    position: absolute;
+    background-color: #ef476f;
+    width: 30px;
+    height: 60px;
+    left: 25px;
+    box-shadow: 60px 0 #ef476f, 120px 0 #ef476f;
+}
+
+.take-cake .cake-middle {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    background-color: #118ab2;
+    border-radius: 7px 7px 0 0;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: inset 0 -20px #073b4c, 0 10px 10px #97979742;
+    overflow: hidden;
+    z-index: 51;
+}
+
+.take-cake .cake-middle::before {
+    content: "";
+    position: absolute;
+    background-color: #ef476f;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    top: 20px;
+    left: 10px;
+    box-shadow: 15px 10px #ffd166, 30px 0 #06d6a0, 45px 10px #ef476f, 60px 0 #ffd166, 75px 10px #06d6a0, 90px 0 #ef476f, 105px 10px #ffd166, 120px 0 #06d6a0;
+}
+
+.take-cake .cake-middle::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    left: 0;
+    border-radius: 0 0 50px 50px;
+    background-color: #fff6e3;
+    box-shadow: 30px 0 #fff6e3, 60px 0 #fff6e3, 90px 0 #fff6e3, 120px 0 #fff6e3;
+}
+
+.take-cake .cake-top {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    background-color: #ef476f;
+    border-radius: 7px 7px 0 0;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    box-shadow: inset 0 20px #118ab2, 0 10px 10px #97979742;
+    z-index: 50;
+}
+
+.take-cake .cake-top::before {
+    content: "";
+    position: absolute;
+    background-color: #118ab2;
+    width: 15px;
+    height: 35px;
+    left: -5px;
+    border-radius: 20px;
+    box-shadow: 15px 10px #ef476f, 30px 5px #118ab2, 45px 5px #ef476f, 60px -10px #118ab2, 75px 10px #ef476f, 90px 0 #118ab2;
+}
+
+.take-cake .cake-top::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 38px;
+    border-radius: 0 7px 0 0;
+    height: 60px;
+    left: 62px;
+}
+
+.take-cake .shadow {
+    position: relative;
+}
+
+.take-cake .shadow::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 50px;
+    border-radius: 0 7px 0 0;
+    height: 60px;
+    right: 25px;
+    top: 180px;
+    z-index: 51;
+}
+
+.take-cake .shadow::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.15);
+    width: 65px;
+    border-radius: 0 7px 0 0;
+    height: 60px;
+    right: 0;
+    top: 240px;
+    z-index: 52;
+}
+
+.take-cake .candle {
+    position: absolute;
+    background: repeating-linear-gradient(-45deg, white, white 5px,
+            #06d6a0 5px, #06d6a0 10px);
+    width: 10px;
+    height: 40px;
+    border-radius: 3px 3px 0 0;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.take-cake .candle::before {
+    content: "";
+    position: absolute;
+    background-color: #333;
+    width: 1px;
+    height: 10px;
+    top: -10px;
+    left: 4px;
+}
+
+.take-cake .flame {
+    position: relative;
+    opacity: 0.7;
+    transition: all .2s ease;
+}
+
+.take-cake .flame::before {
+    content: "";
+    position: absolute;
+    background-color: #fb5607;
+    border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+    width: 20px;
+    height: 20px;
+    top: 55px;
+    left: 50%;
+    transition: all .2s ease;
+    transform: translateX(-50%) rotate(-45deg);
+    animation: flame-red 1s linear infinite;
+}
+
+.take-cake .flame::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffbe0b;
+    width: 11px;
+    height: 11px;
+    top: 61px;
+    left: 50%;
+    transition: all .2s ease;
+    transform: translateX(-50%);
+    animation: flame-yellow 1s linear infinite;
+}
+
+.take-cake .cake.flame-done .flame::before {
+    animation: flame-done .2s linear forwards;
+}
+
+.take-cake .cake.flame-done .flame::after {
+    animation: flame-yellow-done .15s linear forwards;
+}
+
+
+
+.take-cake .smoke {
+    position: relative;
+    opacity: 0.7;
+    transition: all .2s ease;
+}
+
+.take-cake .smoke-left {
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 17px;
+    background-color: rgb(168, 166, 166);
+    border-radius: 35%;
+    transform: translate(calc(-50% - 7px), 100%);
+    top: 14px;
+    animation: smoke-1-up 1.5s linear forwards;
+}
+
+
+.take-cake .smoke-middle {
+    position: absolute;
+    left: 50%;
+
+    width: 4px;
+    height: 32px;
+    background-color: #f1ebeb;
+
+    border-radius: 50%;
+    transform: translate(-50%, 100%);
+    top: -4px;
+    animation: smoke-2-up 1s linear forwards;
+}
+
+.take-cake .smoke-right {
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 26px;
+    background-color: rgb(155, 155, 155);
+    border-radius: 35%;
+    transform: translate(calc(-50% + 6px), 50%);
+    top: 17px;
+    animation: smoke-3-up 1.3s linear forwards;
+}
+
+
+@keyframes cake-in {
+    from {}
+
+    60% {
+        transform: translate(-50%, -50%) scale(1.88);
+    }
+
+    to {
+
+        transform: translate(-50%, -50%) scale(1.8);
+        opacity: 1;
+    }
+}
+
+@keyframes cake-out {
+    from {
+        transform: translate(-50%, -50%) scale(1.8);
+        opacity: 1;
+    }
+
+    20% {
+        transform: translate(-50%, -50%) scale(1.88);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(.8);
+        opacity: 0;
+    }
+}
+
+@keyframes flame-red {
+    16% {
+        transform: translateX(-50%) scaleY(1) rotate(-45deg);
+    }
+
+    32% {
+        transform: translateX(-50%) scaleY(1) rotate(-43deg);
+    }
+
+    48% {
+        transform: translateX(-50%) scaleY(1.05) rotate(-41deg);
+    }
+
+    64% {
+        transform: translateX(-50%) scaleY(1) rotate(-43deg);
+    }
+
+    81% {
+        transform: translateX(-50%) scaleY(1) rotate(-45deg);
+    }
+
+    100% {
+        transform: translateX(-50%) scaleY(1.05) rotate(-47deg);
+    }
+}
+
+@keyframes flame-yellow {
+    16% {
+        transform: translateX(-50%) scaleY(1) rotate(-45deg);
+    }
+
+    32% {
+        transform: translateX(-50%) scaleY(1) rotate(-43deg);
+    }
+
+    48% {
+        transform: translateX(-50%) scaleY(1.05) rotate(-41deg);
+    }
+
+    64% {
+        transform: translateX(-50%) scaleY(1) rotate(-43deg);
+    }
+
+    81% {
+        transform: translateX(-50%) scaleY(1) rotate(-45deg);
+    }
+
+    100% {
+        transform: translateX(-50%) scaleY(1.05) rotate(-47deg);
+    }
+}
+
+@keyframes flame-yellow-done {
+    from {}
+
+    to {
+        opacity: .8;
+        border-radius: 100% 0 100% 16%/ 100% 0px 100% 3%;
+        transform: translate(-124%, -7%) rotate(-94deg);
+        height: 10px;
+        width: 7px;
+        opacity: 0;
+        background-color: #ffbe0b2f;
+    }
+}
+
+@keyframes flame-done {
+    from {}
+
+    80% {
+        opacity: .8;
+        background-color: #fb5407a6;
+        transform: translate(-133%, -16%) rotate(-88deg);
+        border-radius: 100% 0 100% 16%/ 100% 0px 100% 3%;
+        height: 28px;
+        width: 12px;
+    }
+
+    to {
+        transform: translate(-121%, -17%) rotate(-86deg);
+        border-radius: 100% 0 100% 16%/ 100% 0px 100% 3%;
+        height: 29px;
+        width: 12px;
+        opacity: 0;
+        background-color: #fb540757;
+    }
+}
+
+@keyframes smoke-1-up {
+
+    from {
+        opacity: 0;
+        transform: translate(calc(-50% - 7px), calc(100%));
+    }
+
+    40% {
+
+        opacity: .2;
+    }
+
+    80% {
+
+        opacity: .6;
+    }
+
+    to {
+
+        transform: translate(calc(-50% - 9px), calc(100% - 38px));
+        opacity: 0;
+    }
+}
+
+@keyframes smoke-2-up {
+
+    from {
+        opacity: 0;
+        transform: translate(calc(-50%), calc(100%));
+    }
+
+    40% {
+
+        opacity: .2;
+    }
+
+    80% {
+
+        opacity: .6;
+    }
+
+    to {
+
+        transform: translate(calc(-50% - 1px), calc(100% - 38px));
+        opacity: 0;
+    }
+}
+
+
+@keyframes smoke-3-up {
+
+    from {
+        opacity: 0;
+        transform: translate(calc(-50% + 6px), calc(100%));
+    }
+
+    40% {
+
+        opacity: .2;
+    }
+
+    80% {
+
+        opacity: .6;
+    }
+
+    to {
+
+        transform: translate(calc(-50% + 3px), calc(100% - 38px));
+        opacity: 0;
+    }
+}
+
+
+.confetti-canvas {
+
+    /* -webkit-font-smoothing: antialiased; */
+    height: 100vh;
+    pointer-events: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.confetti-startpoint {
+    position: fixed;
+    z-index: 1;
+    /* bottom: 0; */
+    left: 0;
+    /* right: 0; */
+    top: 0;
+    display: block;
+    width: 400px;
+    height: 200px;
+    opacity: 0;
+}
+
+/*********** END BITH ANIMATION ***********/

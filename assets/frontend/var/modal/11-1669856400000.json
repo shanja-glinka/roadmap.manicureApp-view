@@ -1,0 +1,53 @@
+{
+    "type": "modal",
+    "view": "story",
+    "version": "1.00",
+    "date": 1673658000000,
+    "content": [
+        {
+            "title": "Lorem ipsum dolor",
+            "src": "/assets/frontend/img/slide-1.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        },
+        {
+            "title": "Lorem ipsum dolor",
+            "src": "/assets/frontend/img/slide-2.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+            "buttons": {
+                "close": {
+                    "text": "🍰",
+                    "style": "background: rgb(51, 133, 35);",
+                    "event": {
+                        "type": "click",
+                        "func": "bithShowsMe2"
+                    }
+                }
+            },
+            "styles": {
+                "animation-duration": "7s",
+                "background": "/assets/frontend/img/slide-1.jpg"
+            }
+        },
+        {
+            "title": "Lorem ipsum dolor",
+            "src": "/assets/frontend/img/slide-3.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        },
+        {
+            "title": "Lorem ipsum dolor",
+            "src": "/assets/frontend/img/slide-4.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        },
+        {
+            "title": "Lorem ipsum dolor",
+            "src": "/assets/frontend/img/slide-5.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore"
+        }
+    ],
+    "params": {
+        "overlay-blur": false,
+        "overlay-click-to-close": false,
+        "overlay-hotkey-to-close": true,
+        "modal-backlight": false
+    }
+}

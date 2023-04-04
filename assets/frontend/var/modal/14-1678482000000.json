@@ -1,0 +1,40 @@
+{
+    "type": "modal",
+    "view": "album",
+    "version": "1.00",
+    "date": 1673658000000,
+    "img": [
+        {
+            "src": "/assets/frontend/img/bith-1.jpg"
+        },
+        {
+            "src": "/assets/frontend/img/bith-2.jpg"
+        },
+        {
+            "src": "/assets/frontend/img/bith-3.jpg"
+        }
+    ],
+    "title": "Йо.. в этот день др",
+    "text": "Очень часто перед днем рождения человека может охватить безграничная тоска, он становится более вспыльчивым, а ощущения праздника совсем нет",
+    "descr": "",
+    "buttons": {
+        "x-close": true,
+        "bithShowsMe2": {
+            "text": "с др... 🍰",
+            "style": "background: rgb(51, 133, 35);",
+            "event": {
+                "type": "click",
+                "func": "bithShowsMe2"
+            }
+        }
+    },
+    "events": {
+        "onload": "bithShowsMe",
+        "onclose": "bithShowsMe3"
+    },
+    "params": {
+        "overlay-blur": false,
+        "overlay-click-to-close": false,
+        "overlay-hotkey-to-close": true
+    }
+}

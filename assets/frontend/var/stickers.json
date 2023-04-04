@@ -1,0 +1,210 @@
+{
+    "version": 1.00,
+    "time": 1664582400000,
+    "data": [
+        {
+            "id": 10,
+            "date": "2022-10-10",
+            "type": "hand-write",
+            "version": 1.00,
+            "event": null,
+            "data": {
+                "time": "2022-10-10",
+                "text": "Новая идея проекта под названием MANICURE APP",
+                "rotate": -15 
+            }
+        },
+        {
+            "id": 11,
+            "date": 1669856400000,
+            "type": "two-stickers",
+            "version": 1.00,
+            "color": 3,
+            "data": [
+                {
+                    "descr": "ланирование, макетиро",
+                    "time": 1669856400000,
+                    "color": 1,
+                    "event": {
+                        "event": "click",
+                        "type": "modal",
+                        "call": null,
+                        "data": {
+                            "src": "/assets/frontend/var/modal/11-1669856400000.json"
+                        }
+                    }
+                },
+                {
+                    "text": "Планирование, макетирование, проработка идеи",
+                    "descr": "ланирование, макетиро",
+                    "time": 1669856400000,
+                    "color": 4,
+                    "insp-mod": "sticker-hand-write",
+                    "rotate": 15
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "date": 1673658000000,
+            "type": "album",
+            "version": 1.00,
+            "event": {
+                "event": "click",
+                "type": "modal",
+                "call": null,
+                "data": {
+                    "src": "/assets/frontend/var/modal/4-1673658000000.json"
+                }
+            },
+            "color": 2,
+            "data": {
+                "text": "Планирование, макетирование, проработка идеи",
+                "descr": "ланирование, макетиро",
+                "time": 1673658000000,
+                "img": [
+                    {
+                        "src": "/assets/frontend/img/exphoto-1.jpg"
+                    },
+                    {
+                        "src": "/assets/frontend/img/exphoto-2.jpg"
+                    },
+                    {
+                        "src": "/assets/frontend/img/exphoto-3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "date": 1672534800000,
+            "type": "sticker",
+            "version": 1.00,
+            "event": null,
+            "color": 5,
+            "data": {
+                "text": "Переработка идей",
+                "descr": "Доработка идей",
+                "time": 1672534800000
+            }
+        },
+        {
+            "id": 12,
+            "date": 1676595600000,
+            "type": "album",
+            "version": 1.00,
+            "event": null,
+            "color": 6,
+            "data": {
+                "text": "Планирование, макетирование, проработка идеи",
+                "time": 1676595600000,
+                "img": [
+                    {
+                        "src": "/assets/frontend/img/exphoto-3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "date": 1676595600000,
+            "type": "photo",
+            "version": 1.00,
+            "event": {
+                "event": "click",
+                "type": "modal",
+                "call": null,
+                "data": {
+                    "src": "/assets/frontend/var/modal/12-1676595600000.json"
+                }
+            },
+            "data": {
+                "text": "Планирование, макетирование, проработка идеи",
+                "time": 1676595600000,
+                "img": {
+                    "src": "/assets/frontend/img/exphoto-5.jpg"
+                }
+            }
+        },
+        {
+            "id": 14,
+            "date": 1678482000000,
+            "type": "animate",
+            "version": 1.00,
+            "event": {
+                "event": "click",
+                "type": "modal",
+                "call": null,
+                "data": {
+                    "src": "/assets/frontend/var/modal/14-1678482000000.json"
+                }
+            },
+            "color": 7,
+            "data": {
+                "text": "Йо... с др",
+                "time": 1678482000000,
+                "img": {
+                    "src": "/assets/frontend/img/trash.png",
+                    "height": "400px",
+                    "style": "height: 400px"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "date": 1694779317832,
+            "type": "album",
+            "version": 1.00,
+            "color": 2,
+            "data": {
+                "text": "Перерабатываем прототип",
+                "time": 1694779317832,
+                "img": [
+                    {
+                        "src": "/assets/frontend/img/exphoto-1.jpg"
+                    },
+                    {
+                        "src": "/assets/frontend/img/exphoto-2.jpg"
+                    },
+                    {
+                        "src": "/assets/frontend/img/exphoto-3.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "date": 1671275028217,
+            "type": "sticker",
+            "version": 1.00,
+            "event": null,
+            "color": 6,
+            "data": {
+                "text": "Прорабатывание прототипа",
+                "time": 1671275028217
+            }
+        },
+        {
+            "id": 15,
+            "date": 1674903603891 ,
+            "type": "sticker-3d",
+            "version": 1.00,
+            "event": null,
+            "color": 1,
+            "data": {
+                "descr": "Решено! В продукте будут личные кабинеты",
+                "time": 1674903603891 
+            }
+        }
+    ],
+    "nav": [
+        {
+            "t": 1664571600000,
+            "text": "Этап: концепты и планы"
+        },
+        {
+            "t": 1672520400000,
+            "text": "Этап: инвестиции"
+        }
+    ]
+}

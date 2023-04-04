@@ -1,0 +1,47 @@
+{
+    "type": "modal",
+    "view": "album",
+    "version": "1.00",
+    "date": 1673658000000,
+    "img": [
+        {
+            "src": "/assets/frontend/img/exphoto-1.jpg"
+        },
+        {
+            "src": "/assets/frontend/img/exphoto-2.jpg"
+        },
+        {
+            "src": "/assets/frontend/img/exphoto-3.jpg"
+        }
+    ],
+    "title": "Lorem ipsum dolor",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "descr": "",
+    "buttons": {
+        "x-close": true,
+        "close": {
+            "icon": "default",
+            "text": "Закрыть",
+            "event": {
+                "type": "click",
+                "func": null
+            },
+            "style": null,
+            "class": null,
+            "textIndex": 0
+        },
+        "button-light": {
+            "text": "Light"
+        },
+        "custom-1": {
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"15\" height=\"12\"><path d=\"M 13.44 3.017 C 13.449 3.145 13.449 3.272 13.449 3.401 C 13.449 7.326 10.373 11.854 4.748 11.854 L 4.748 11.851 C 3.086 11.854 1.459 11.391 0.061 10.519 C 0.302 10.548 0.545 10.562 0.788 10.562 C 2.165 10.564 3.503 10.115 4.586 9.288 C 3.278 9.264 2.13 8.435 1.729 7.225 C 2.188 7.311 2.66 7.294 3.11 7.174 C 1.683 6.894 0.657 5.676 0.657 4.262 L 0.657 4.225 C 1.082 4.455 1.558 4.582 2.045 4.596 C 0.701 3.724 0.287 1.988 1.098 0.63 C 2.651 2.486 4.942 3.614 7.401 3.734 C 7.154 2.702 7.491 1.621 8.286 0.895 C 9.517 -0.229 11.454 -0.172 12.612 1.024 C 13.297 0.893 13.953 0.649 14.554 0.303 C 14.326 0.991 13.848 1.575 13.21 1.946 C 13.816 1.876 14.408 1.719 14.966 1.478 C 14.555 2.075 14.039 2.596 13.44 3.017 Z\" fill=\"hsl(0, 0%, 100%)\"><\/path><\/svg>",
+            "text": "Follow",
+            "textIndex": 1
+        }
+    },
+    "params": {
+        "overlay-blur": false,
+        "overlay-click-to-close": false,
+        "overlay-hotkey-to-close": true
+    }
+}
