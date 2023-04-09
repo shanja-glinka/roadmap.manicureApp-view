@@ -1,0 +1,99 @@
+@media (max-width: 850px) {
+    .modal-album-layer .modal-album-card {
+        width: 360px;
+        height: 220px;
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(1) .modal-photo {
+        transform: translateX(-10%) translateY(40%) rotate(3deg);
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(2) .modal-photo {
+        transform: translateX(10%) translateY(-21%) rotate(8deg);
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(3) .modal-photo {
+        transform: translateX(-12%) translateY(-70%) rotate(-5deg);
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(4) .modal-photo {
+        transform: translateX(8%) translateY(-90%) rotate(-5deg);
+    }
+
+    .modal-album-layer .modal-album-info .modal-info-card {
+        transform: translateX(0) translateY(54%);
+
+        width: 360px;
+        min-height: 220px;
+        padding: 15px 30px 15px;
+    }
+
+    .modal-album-info .modal-info-card .modal-title {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .modal-album-info .modal-info-card .modal-text {
+        font-size: 16px;
+        text-align: center;
+        margin: 6px 0 10px;
+    }
+}
+
+@media (max-width: 520px) {
+    .modal-field-wrap {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .modal-album-layer .modal-album-card:nth-child(1) .modal-photo {
+        transform: translateX(0) translateY(20%) rotate(2deg);
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(2) .modal-photo {
+        transform: translateX(0) translateY(-30%) rotate(1deg);
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(3) .modal-photo {
+        transform: translateX(0) translateY(-70%) rotate(-3deg);
+    }
+
+    .modal-album-layer .modal-album-card:nth-child(4) .modal-photo {
+        transform: translateX(0) translateY(-90%) rotate(-1deg);
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .modal-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .modal-field-item {
+        width: 200px;
+    }
+
+    .modal-field-item img {
+        width: 200px;
+    }
+
+
+    .modal-field-item p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .modal-field-item button {
+
+        padding: 0 12px;
+        margin: 0px 10px;
+        font-size: 13px;
+        line-height: 28px;
+
+    }
+}

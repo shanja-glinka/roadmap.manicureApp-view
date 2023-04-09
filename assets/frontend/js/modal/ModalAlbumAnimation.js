@@ -50,14 +50,27 @@ class ModalAlbumAnimation extends AnimationSctruct {
             let rotation = this.getCurrentRotation(el) + 'deg';
 
 
-            if (index == 0)
-                _doc.addStyles(el, { transform: 'translateX(-40%) translateY(44%) rotate(0deg) scale(.98)' });
-            if (index == 1)
-                _doc.addStyles(el, { transform: 'translateX(40%) translateY(-41%) rotate(0deg) scale(.98)' });
-            if (index == 2)
-                _doc.addStyles(el, { transform: 'translateX(-40%) translateY(-40%) rotate(0deg) scale(.98)' });
-            if (index == 3)
-                _doc.addStyles(el, { transform: 'translateX(40%) translateY(40%) rotate(0deg) scale(.98)' });
+            if (window.screen.width > 850) {
+                if (index == 0)
+                    _doc.addStyles(el, { transform: 'translateX(-40%) translateY(44%) rotate(0deg) scale(.98)' });
+                if (index == 1)
+                    _doc.addStyles(el, { transform: 'translateX(40%) translateY(-41%) rotate(0deg) scale(.98)' });
+                if (index == 2)
+                    _doc.addStyles(el, { transform: 'translateX(-40%) translateY(-40%) rotate(0deg) scale(.98)' });
+                if (index == 3)
+                    _doc.addStyles(el, { transform: 'translateX(40%) translateY(40%) rotate(0deg) scale(.98)' });
+            }
+            if (window.screen.width > 475) {
+                if (index == 0)
+                    _doc.addStyles(el, { transform: 'translateX(-10%) translateY(40%) rotate(0deg) scale(.98)' });
+                if (index == 1)
+                    _doc.addStyles(el, { transform: 'translateX(10%) translateY(-21%) rotate(0deg) scale(.98)' });
+                if (index == 2)
+                    _doc.addStyles(el, { transform: 'translateX(-12%) translateY(-70%) rotate(0deg) scale(.98)' });
+                if (index == 3)
+                    _doc.addStyles(el, { transform: 'translateX(8%) translateY(-90%) rotate(0deg) scale(.98)' });
+            }
+
 
             let rect1 = this.getBoundingClientRect(el);
 
@@ -111,7 +124,11 @@ class ModalAlbumAnimation extends AnimationSctruct {
 
         setTimeout(() => {
             if (infoCardAnimate) {
-                _doc.addStyles(infoCardAnimate, { opacity: 1 });
+                if (window.screen.width < 850)
+                    _doc.addStyles(infoCardAnimate, { opacity: 1, 'animation': 'card-info-in-mob .4s cubic-bezier(.7, -0.18, .29, 1.36)' });
+                else
+                    _doc.addStyles(infoCardAnimate, { opacity: 1 });
+                    
                 _doc.removeStyles(infoCardAnimate, 'display');
             }
 
@@ -154,7 +171,11 @@ class ModalAlbumAnimation extends AnimationSctruct {
 
         let infoCardAnimate = document.querySelector('.' + this.styles.modalInfoCard);
         if (infoCardAnimate) {
-            _doc.addStyles(infoCardAnimate, { transform: 'translateX(35%) translateY(250%)' });
+            if (window.screen.width > 850) {
+                _doc.addStyles(infoCardAnimate, { transform: 'translateX(0) translateY(250%)' });
+            } else {
+                _doc.addStyles(infoCardAnimate, { transform: 'translateX(0) translateY(250%)' });
+            }
 
             setTimeout(() => {
                 _doc.addStyles(infoCardAnimate, { display: 'none' });
@@ -188,15 +209,28 @@ class ModalAlbumAnimation extends AnimationSctruct {
                 opacity: 0
             });
 
-            if (index == 0)
-                _doc.addStyles(el, { transform: 'translateX(-40%) translateY(44%) rotate(0deg)' });
-            if (index == 1)
-                _doc.addStyles(el, { transform: 'translateX(40%) translateY(-41%) rotate(0deg)' });
-            if (index == 2)
-                _doc.addStyles(el, { transform: 'translateX(-40%) translateY(-40%) rotate(0deg)' });
-            if (index == 3)
-                _doc.addStyles(el, { transform: 'translateX(-40%) translateY(-40%) rotate(0deg)' });
+            if (window.screen.width > 850) {
+                if (index == 0)
+                    _doc.addStyles(el, { transform: 'translateX(-40%) translateY(44%) rotate(0deg)' });
+                if (index == 1)
+                    _doc.addStyles(el, { transform: 'translateX(40%) translateY(-41%) rotate(0deg)' });
+                if (index == 2)
+                    _doc.addStyles(el, { transform: 'translateX(-40%) translateY(-40%) rotate(0deg)' });
+                if (index == 3)
+                    _doc.addStyles(el, { transform: 'translateX(-40%) translateY(-40%) rotate(0deg)' });
 
+            }
+
+            if (window.screen.width > 475) {
+                if (index == 0)
+                    _doc.addStyles(el, { transform: 'translateX(-10%) translateY(40%) rotate(0deg)' });
+                if (index == 1)
+                    _doc.addStyles(el, { transform: 'translateX(10%) translateY(-21%) rotate(0deg)' });
+                if (index == 2)
+                    _doc.addStyles(el, { transform: 'translateX(-12%) translateY(-70%) rotate(0deg)' });
+                if (index == 3)
+                    _doc.addStyles(el, { transform: 'translateX(8%) translateY(-90%) rotate(0deg)' });
+            }
 
             let viewportOffset = el.getBoundingClientRect();
 
