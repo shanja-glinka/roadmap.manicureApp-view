@@ -48,7 +48,9 @@
 }
 
 @media (max-width: 460px) {
-
+    .modal-wrap {
+        overflow-y: auto;
+    }
     .modal-album-layer .modal-album-card:nth-child(1) .modal-photo {
         transform: translateX(0) translateY(20%) rotate(2deg);
     }
